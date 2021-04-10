@@ -1,3 +1,5 @@
+# We need the shortest path, so we use BFS to get answer on top of grid itself
+
 class Solution:
     def shortestPathBinaryMatrix(self, grid: List[List[int]]) -> int:
         
