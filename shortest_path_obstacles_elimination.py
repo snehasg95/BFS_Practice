@@ -52,4 +52,8 @@ class Solution:
                     
                     
                 
-                
+# For large tc's we could use manhattan distance and skip all these
+# if (k >= grid.length + grid[0].length - 3) {
+#           return grid.length + grid[0].length - 2;
+#       }
+        
